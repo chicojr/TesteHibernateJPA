@@ -6,8 +6,9 @@ import javax.persistence.Persistence;
 public class GeraTabelas {
 	
 	public static void main(String[] args) {
+		System.out.println("ok");
         EntityManagerFactory factory = Persistence.
-                    createEntityManagerFactory("tarefas");
+        		createEntityManagerFactory("tarefas");
         factory.close();
     }
 	
